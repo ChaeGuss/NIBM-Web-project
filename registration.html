@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Register Your Dog</title>
+<link rel="stylesheet" href="css/registerstyle.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Acme&family=Frijole&family=Londrina+Solid&family=Luckiest+Guy&family=Merriweather+Sans&family=Open+Sans&family=Roboto&family=Rubik+Dirt&family=Russo+One&family=Signika+Negative&family=Source+Sans+Pro&family=Ubuntu&family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+<header>
+    <div class="logo">
+        <span class="paw"><ion-icon name="paw-outline"></ion-icon></span>
+    </div>
+    <ul>
+        <li class="list"><a href="index.html">
+            <span class="icon">
+                <ion-icon name="home"></ion-icon>
+            </span>Home</a></li>
+        <li class="list"><a href="#">
+            <span class="icon">
+                <ion-icon name="paw"></ion-icon>
+            </span>Find a Pet</a></li>
+        <li class="list"><a href="registration.html">
+            <span class="icon">
+                <ion-icon name="enter"></ion-icon>
+            </span> Register your Dog</a></li>
+        <li class="list"><a href="#">
+            <span class="icon">
+                <ion-icon name="pricetags"></ion-icon>
+            </span> Shop</a></li>
+        <li class="list"><a href="loginform.html">
+            <span class="icon-1">
+                <ion-icon name="people"></ion-icon>
+            </span>
+        </a></li>
+    </ul>
+</header>
+<section>
+<div class="container">
+        <div class="main">
+          <div class="heading">
+            <h1>Registration Form</h1>
+          </div>
+          <div class="r-body">
+            <form action="register.php" method="post" id="register">
+              <div class="form-group">
+                <label for="applicantName">Applicant Name : </label>
+                <input type="text" id="applicantName" name="applicantName" required/>
+              </div>
+              <div class="form-group">
+                <label for="dogName">Name of Dog : </label>
+                <input type="text" id="dogName" name="dogName" required/>
+              </div>
+              <div class="form-group">
+                <label for="breed">Breed : </label>
+                <input type="text" id="breed" name="breed" required/>
+              </div>
+              <div class="form-group">
+                <label for="gender">Dog's Gender : </label>
+                <div>
+                  <label for="male"> 
+                  <input type="radio" name="gender" value="m" id="male" />Male
+                  </label>
+                  <label for="female">
+                  <input type="radio" name="gender" value="f" id="female" />Female
+                  </label>
+              </div>
+              <div class="form-group">
+                <label for="email">Email : </label>
+                <input type="text" id="email" name="email" required/>
+              </div>
+              <div class="form-group">
+                <label for="number">Phone Number : </label>
+                <input type="number" id="number" name="number" />
+              </div>
+              <input type="submit" class="btn btn-primary" id="submit" value="submit" />
+            </form>
+          </div>
+          <div class="footer-text">
+            <small>&copy; PET PAWS</small>
+          </div>
+        </div>
+      </div>
+</div>
+</section>
+
+
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<body>
+</body>
+</html>

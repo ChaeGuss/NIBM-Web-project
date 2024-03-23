@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Frijole&family=Londrina+Solid&family=Luckiest+Guy&family=Merriweather+Sans&family=Open+Sans&family=Roboto&family=Rubik+Dirt&family=Signika+Negative&family=Source+Sans+Pro&family=Varela+Round&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ed845f4315.js" crossorigin="anonymous"></script>
+    <title>Web Project</title>
+</head>
+<body>
+<header>
+    <div class="logo">
+        <span class="paw"><ion-icon name="paw-outline"></ion-icon></span>
+    </div>
+    <ul>
+        <li class="list"><a href="index.html">
+            <span class="icon">
+                <ion-icon name="home"></ion-icon>
+            </span>Home</a></li>
+        <li class="list"><a href="#">
+            <span class="icon">
+                <ion-icon name="paw"></ion-icon>
+            </span>Find a Pet</a></li>
+        <li class="list"><a href="registration.html">
+            <span class="icon">
+                <ion-icon name="enter"></ion-icon>
+            </span> Register your Dog</a></li>
+        <li class="list"><a href="#">
+            <span class="icon">
+                <ion-icon name="pricetags"></ion-icon>
+            </span> Shop</a></li>
+        <li class="list"><a href="loginform.html">
+            <span class="icon-1">
+                <ion-icon name="people"></ion-icon>
+            </span>
+        </a></li>
+    </ul>
+</header>
+<section>
+<div class="first-box">
+    <h1 id="pawprint"> PAW PRINT </h1>
+    <br>
+</div>
+</section>
+<section>
+<div class="container">
+    <div class="card">
+        <div class="content">
+          <h3> Adopt a Dog </h3>
+            <p> Find a Dog who's right for you at a shelter or rescue group and give them a loving home </p>
+            <a href="#">Read More</a>
+        </div>
+        <img src="images/dog.png" width="260" height="404" id="dog">
+    </div>
+    <div class="card">
+        <div class="content">
+          <h3> Adopt a Cat </h3>
+            <p> Find a Cat who's right for you at a shelter or rescue group and give them a loving home </p>
+            <a href="#">Read More</a>
+        </div>
+        <img src="images/cat.png" width="350" height="451" id="cat">
+        
+<div class="popup">
+    <div class="contentbox">
+        <div class="close"></div>
+       <div class="imgbox">
+         <img src="images/popupimg.png" alt="popup-pic">
+       </div>
+       <div class="content-1">
+          <h3> 24 Hour Emergency service </h3>
+          <h2> PETCO </h2>
+          <p> We offer the best proffesional care for your pets </p>
+          <a href="#"> VISIT NOW </a>
+       </div>
+    </div>
+</div>
+</section>
+<section>
+<div class="deal">
+    <span>Upto 30% OFF</span>
+    <h3>Tasty,Healthy and Affordable pet food</h3>
+    <a href="#" class="button">Get the deal now</a>
+</div>
+</section>
+<section>
+    <div  class="footer">
+        <div class="left-col">
+          <h3>USEFUL LINKS</h3>
+          <a href="#">About Us</a>
+          <a href="#">Find a Pet</a>
+          <a href="#">Register your Pet</a>
+          <a href="#">Shop</a>
+        </div>
+        <div class="middle-col">
+          <h3>Subscribe to our Newsletter</h3>
+          <form>
+            <input type="text" placeholder="Your Email Address">
+            <br>
+            <button type="submit" class="button-2">SUBSCRIBE NOW</button>
+          </form>
+        </div>
+        <div class="right-col">
+          <h3>CONTACT</h3>
+          <p>328, Malwaththa Road
+            <br>
+            Colombo, Sri Lanka
+          </p>
+          <div class="social-icons">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-discord"></i>
+          </div>
+        </div>
+    </div>
+</section> 
+<script>
+    const popup = document.querySelector('.popup');
+    const close = document.querySelector('.close');
+
+    window.onload = function(){
+        setTimeout(function(){
+            popup.style.display = "block";
+        }, 2000)
+	}
+    close.addEventListener('click', () => {
+        popup.style.display = "none";
+    })
+</script>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

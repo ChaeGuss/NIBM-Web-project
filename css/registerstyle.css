@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #e8c07d;
+}
+
+header {
+    position: static;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 7px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2a334f;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 150px;
+}
+
+li {
+    list-style: none;
+    margin-left: 20px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1.2rem;
+}
+
+a {
+    text-decoration: none;
+    padding: 8px 19px;
+    color: antiquewhite;
+    border-radius: 20px;
+}
+
+a:hover {
+    background: brown;
+    color: aqua;
+}
+
+.icon {
+    position: relative;
+    font-size: 1.5rem;
+}
+
+.logo {
+    margin-left: -50px;
+}
+
+.paw {
+    position: relative;
+    font-size: 3rem;
+    color: #e8c07d;
+}
+
+.icon-1 {
+    font-size: 2.5rem;
+}
+
+.icon-1:hover {
+    background: #e8c07d;
+    color: black;
+    padding: 9px 21px;
+    border-radius: 50px;
+}
+
+.container {
+	width: 400px;
+    margin: 100px auto 100px auto;
+}
+
+.main {
+	 background-color: rgba(0,0,0,0.5);
+     width: 120%;
+     font-size: 18px;
+     border-radius: 10px;
+     border: 1px solid rgba(255,255,255,0.3);
+     box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+     color: #fff;
+}
+
+.heading {
+	font-family: 'Ubuntu', sans-serif;
+	color: #e8c07d;
+}
+
+form#register {
+     margin: 40px;
+}
+
+.form-group {
+	text-align:left;
+	margin-top:20px;
+}
+ 
+input#submit {
+	 width: 100px;
+     padding: 7px;
+     font-size: 16px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: 600;
+     border: none;
+     border-radius: 3px;
+     background-color: #F95959;
+     color: #fff;
+     cursor: pointer;
+     border: 1px solid rgba(0,0,0, 0.488);
+     box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+     margin-left: 150px;
+	 margin-top:30px;
+}
+
+label {
+	font-family: 'Merriweather Sans', sans-serif;
+}
+
+
